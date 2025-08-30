@@ -8,7 +8,7 @@ export interface VoteOptionsProps {
     canReset: boolean,
 }
 
-export default function VoteOptions({onVote, onReset, canReset}: VoteOptionsProps) {
+export default function VoteOptions({ onVote, onReset, canReset}: VoteOptionsProps) {
     return (
         <div className={css.container}>
             <button className={css.button} onClick={() => onVote("good")}>Good</button>
