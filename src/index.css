@@ -2,6 +2,11 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -66,3 +71,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
